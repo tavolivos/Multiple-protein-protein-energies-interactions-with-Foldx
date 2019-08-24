@@ -1,7 +1,7 @@
 #!/bin/bash
 #This is an script to calculate protein-protein energy interaction with FOLDX
-#Author:    Gustavo E. Olivos Ramirez
-#           gustavo.olivos@upch.pe
+#Writen by:     Gustavo E. Olivos Ramirez
+#               gustavo.olivos@upch.pe
 #This script repairs, optimizes and analyses PDB files. 
 #chain_receptor=$1 	/ use this argument to provide a chain name runing the command in the terminal (e.g: A)
 #chain_ligand=$2	/ use this argument to provide a chain name runing the command in the terminal (e.g: B)
@@ -101,6 +101,6 @@ gedit Re*/A_V/Interac*
 gedit Re*/C_V/Interac*
 sleep 5
 clear
-echo 'FOLDX HAS FINISHED COMPLETEYLY'
+echo 'FOLDX HAS FINISHED COMPLETELY'
 sleep 5
 sleep 3

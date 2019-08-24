@@ -1,5 +1,7 @@
 #!/bin/bash
 #This is an script to calculate protein-protein energy interaction with FOLDX
+#Author:    Gustavo E. Olivos Ramirez
+#           gustavo.olivos@upch.pe
 #This script repairs, optimizes and analyses PDB files. 
 #chain_receptor=$1 	/ use this argument to provide a chain name runing the command in the terminal (e.g: A)
 #chain_ligand=$2	/ use this argument to provide a chain name runing the command in the terminal (e.g: B)

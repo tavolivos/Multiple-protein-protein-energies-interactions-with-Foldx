@@ -65,6 +65,7 @@ mv O* PDB_optimized/
 cd PDB_optimized/
 sleep 5
 clear
+#Thus part analyse protein-protein interaction energies 
 echo 'ANALYSING COMPLEX'
 sleep 5
 echo '...'

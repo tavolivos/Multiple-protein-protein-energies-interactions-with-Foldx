@@ -7,6 +7,7 @@
 #chain_ligand=$2	/ use this argument to provide a chain name runing the command in the terminal (e.g: B)
 #change PDB files names before running (if not necessary turn off this part)
 echo 'CHANGING FILES NAMES' && sleep 5
+g=1
 for file in *.pdb; do
     mv $file mod$g.pdb
     g=$((g+1));
